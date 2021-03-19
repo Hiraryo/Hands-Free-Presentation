@@ -1,4 +1,5 @@
-<h1 align="center">Hands Free Presentation<br><p align="center">プレゼンをもっと自由に</p></h1>
+<h1 align="center">Hands Free Presentation</h1>
+  <p align="center">プレゼンをもっと自由に</p>
 <br>
 <br>
 <br>
