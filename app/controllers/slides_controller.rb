@@ -3,10 +3,8 @@ class SlidesController < ApplicationController
   end
 
   def show
-    if params[:slides] == '5'
-      @user = User.find_by(:slides => '5')
-    elsif params[:slides] == '1'
-      @user = User.find_by(:slides => '1')
-    end
+    @user = Hash.new
+    @user[:slides] = '5'
+    @user[:slideMasters] = 'slideMasters'
   end
 end
