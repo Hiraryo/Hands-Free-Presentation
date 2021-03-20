@@ -1,4 +1,4 @@
-class TweetsController < ApplicationController
+class PresentationsController < ApplicationController
   def index
   end
 

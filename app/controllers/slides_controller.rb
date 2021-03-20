@@ -3,8 +3,6 @@ class SlidesController < ApplicationController
   end
 
   def show
-    @user = Hash.new
-    @user[:slides] = '5'
-    @user[:slideMasters] = 'slideMasters'
+    @user = User.find_by(:slides => params[:slides])
   end
 end
