@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'presentations/index'
+  post 'presentations' => 'presentations#index'
   get 'presentations/show'
   get 'presentations/new'
   post 'presentations' => 'presentations#create'

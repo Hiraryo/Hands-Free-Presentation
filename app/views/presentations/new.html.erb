@@ -1,11 +1,45 @@
-<h1>Presentations#new</h1>
-<p>ユーザーがプレゼンに使うスライドと声を登録する画面</p>
-<!-- この結果はapp/controllers/presentations_controller.rbに渡される -->
-<%= form_for Presentation.new do |f| %>
-  <%= f.label :fine_name %>
-  <%= f.file_field :fine_name %>
-  <%= f.label :content %>
-  <%= f.text_area :content %>
-  <%= f.submit %>
-<% end %>
-<p>Find me in app/views/presentations/new.html.erb</p>
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HandsFreePresentation</title>
+  </head>
+  <body>
+    <form id="form1">
+      <input type="file"  action=".pptx" id="file1"/>
+      <br><br>
+      <button id="open">ファイル選択ダイアログを表示</button>
+      <br><br>
+      <input type="submit" value="送信"/>
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+      //pptxファイルを選択するダイアログを開く
+      $("#open").on("click", () => {
+        $("#file1").click();
+        return false;
+      });
+
+      //ファイルを一つ選択
+      $("#form1").on("submit",() => {
+        const files = $("#file1")[0].files;
+
+        //ファイルが選択されていない時は、何もせずに終了
+        if(files.length === 0) {
+          return  false;
+        }
+
+        //選択したpptxファイルを取得
+        const file = files[0];
+
+        //ファイル名表示
+        const filename = file.name;
+        console.log(`選択されたファイル名:${filename}`);
+
+        //キャンセルの場合
+        return false;
+      });
+    </script>
+  </body>
+</html>
