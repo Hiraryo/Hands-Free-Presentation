@@ -1,2 +1,7 @@
-<h1>Presentations#index</h1>
-<p>Find me in app/views/presentations/index.html.erb</p>
+<h1>今までの投稿</h1>
+
+<!-- c言語のfor文のようにデータベース内のデータを全て取得、表示 -->
+<% @presentations.each do |presentation| %>
+  <h1><%= presentation.title %></h1>
+  <p><%= presentation.content %></p>
+<% end %>
