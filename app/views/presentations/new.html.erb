@@ -1,8 +1,9 @@
 <h1>Presentations#new</h1>
 <p>ユーザーがプレゼンに使うスライドと声を登録する画面</p>
+<!-- この結果はapp/controllers/presentations_controller.rbに渡される -->
 <%= form_for Presentation.new do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
+  <%= f.label :fine_name %>
+  <%= f.file_field :fine_name %>
   <%= f.label :content %>
   <%= f.text_area :content %>
   <%= f.submit %>

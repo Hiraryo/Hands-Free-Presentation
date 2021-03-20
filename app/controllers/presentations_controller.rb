@@ -13,7 +13,7 @@ class PresentationsController < ApplicationController
   #スライドと声を登録する画面で「Create Presentation」を押すと、ここに飛ぶ
   def create
     @presentations = Presentation.new
-    @presentations.title = params[:presentation][:title]
+    @presentations.filename = params[:presentation][:fine_name]
     @presentations.content = params[:presentation][:content]
     @presentations.save
     redirect_to '/presentations/index'
