@@ -5,3 +5,22 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+@user = User.new
+@user.slides = '5'
+@user.slideMasters = 'slideMasters'
+@user.slideLayouts = 'slideLayouts'
+@user.theme = 'theme'
+@user.notesMaster = 'notesMaster'
+@user.notesSlides = 'notesSlides'
+@user.save
+
+
+@user = User.new
+@user.slides = '1'
+@user.slideMasters = 'Next_slideMasters'
+@user.slideLayouts = 'Next_slideLayouts'
+@user.theme = 'Next_theme'
+@user.notesMaster = 'Next_notesMaster'
+@user.notesSlides = 'Next_notesSlides'
+@user.save
