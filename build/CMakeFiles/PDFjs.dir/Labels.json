@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs-complete.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-build.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-configure.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-download.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-install.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-mkdir.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-patch.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PDFjs"
+		],
+		"name" : "PDFjs"
+	}
+}

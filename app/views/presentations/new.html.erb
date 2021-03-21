@@ -2,14 +2,12 @@
 <html lang="ja" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>HandsFreePresentation</title>
+    <title></title>
   </head>
   <body>
+    <h1>Hands Free Presentation</h1>
     <form id="form1">
       <input type="file"  action=".pptx" id="file1"/>
-      <br><br>
-      <button id="open">ファイル選択ダイアログを表示</button>
-      <br><br>
       <input type="submit" value="送信"/>
     </form>
 
@@ -41,5 +39,15 @@
         return false;
       });
     </script>
+    <p>ユーザーがプレゼンに使うスライドと声を登録する画面</p>
+    <!-- この結果はapp/controllers/presentations_controller.rbに渡される -->
+    <%= form_for Presentation.new do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :title %>
+      <%= f.label :content %>
+      <%= f.text_area :content %>
+      <%= f.submit %>
+    <% end %>
+    <p>Find me in app/views/presentations/new.html.erb</p>
   </body>
 </html>

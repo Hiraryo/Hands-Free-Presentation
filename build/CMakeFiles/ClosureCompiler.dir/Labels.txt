@@ -1,0 +1,13 @@
+# Target labels
+ ClosureCompiler
+# Source files and their labels
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/ClosureCompiler
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/ClosureCompiler.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/ClosureCompiler-complete.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-build.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-configure.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-download.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-install.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-mkdir.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-patch.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/ClosureCompiler-prefix/src/ClosureCompiler-stamp/ClosureCompiler-update.rule

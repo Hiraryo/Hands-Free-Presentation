@@ -1,0 +1,13 @@
+# Target labels
+ PDFjs
+# Source files and their labels
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs-complete.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-build.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-configure.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-download.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-install.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-mkdir.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-patch.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/PDFjs-prefix/src/PDFjs-stamp/PDFjs-update.rule

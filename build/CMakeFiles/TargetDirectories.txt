@@ -1,0 +1,13 @@
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/edit_cache.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/ODFViewerPlugin.css.js-target.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/Viewer.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/viewer.min.js-target.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/viewerTouch.css.js-target.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/rebuild_cache.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/index.html-target.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFjs.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/wordpress-plugin.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/PDFViewerPlugin.css.js-target.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/ClosureCompiler.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF.dir
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/viewer.css.js-target.dir

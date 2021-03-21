@@ -2,6 +2,8 @@
 
 <!-- c言語のfor文のようにデータベース内のデータを全て取得、表示 -->
 <% @presentations.each do |presentation| %>
-  <p><%= presentation.fine_name %></p>
+  <h1><%= presentation.title %></h1>
+  <p><%= presentation.content %></p>
 <% end %>
+
 <%=link_to("新規登録", "http://0.0.0.0:3000/presentations/new")%>

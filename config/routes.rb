@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'presentations/index'
-  post 'presentations' => 'presentations#index'
   get 'presentations/show'
   get 'presentations/new'
   post 'presentations' => 'presentations#create'
+  post 'presentations' => 'presentations#delete'
 
   get 'slides/index'
   # http://0.0.0.0:3000/slides/show/1で1ページ目を表示するようにしたい

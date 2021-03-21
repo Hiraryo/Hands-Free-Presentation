@@ -1,0 +1,13 @@
+# Target labels
+ WebODF
+# Source files and their labels
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF-complete.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-build.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-configure.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-download.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-install.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-mkdir.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-patch.rule
+/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-update.rule

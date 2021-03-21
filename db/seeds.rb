@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 @user = User.new
-@user.slides = '5'
+@user.slides = '1'
 @user.slideMasters = 'slideMasters'
 @user.slideLayouts = 'slideLayouts'
 @user.theme = 'theme'
@@ -17,7 +17,7 @@
 
 
 @user = User.new
-@user.slides = '1'
+@user.slides = '2'
 @user.slideMasters = 'Next_slideMasters'
 @user.slideLayouts = 'Next_slideLayouts'
 @user.theme = 'Next_theme'

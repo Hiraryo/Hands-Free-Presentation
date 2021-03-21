@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/CMakeFiles/WebODF-complete.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-build.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-configure.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-download.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-install.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-mkdir.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-patch.rule"
+		},
+		{
+			"file" : "/Users/ryota/Desktop/HandsFreePresentationRails/build/WebODF-prefix/src/WebODF-stamp/WebODF-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"WebODF"
+		],
+		"name" : "WebODF"
+	}
+}
