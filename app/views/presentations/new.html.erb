@@ -10,7 +10,6 @@
       <input type="file"  action=".pptx" id="file1"/>
       <input type="submit" value="送信"/>
     </form>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script language="javascript" type="text/javascript">
       //pptxファイルを選択するダイアログを開く
@@ -38,6 +37,15 @@
         //キャンセルの場合
         return false;
       });
+      //開発中にメンターさんから頂いたコメント（メモ）
+      //ODPを表示できるJSライブラリーでhttps://github.com/webodf/ViewerJS
+      //があるんですが、こういうpptxの前にodp（ここはpdfも表示できそう)をpptxの前に試しに動きなどを求めてるものと同じか
+      //確認してみたりするのはありかなぁと思いました。
+      //ただ一般論としてpptxを自力でレンダリングするのは相当手間だと思うので
+      //その前にいわゆるビューワーとして提供されているライブラリーなどを使えるようになる。使ってみて自分がしたいことができてる場合は、次のビューワーの操作の部分を自分でコントロールできるようにする
+      //次にコントロールする手段でキーボードなどのインターフェース以外に音声を受け付けれるようにし、音声からビューワーを操作できるようにする。
+      //粒度が荒いですが、これぐらいのステップを踏んで見た方がやりたいことに近づけると思いますー
+
     </script>
     <p>ユーザーがプレゼンに使うスライドと声を登録する画面</p>
     <!-- この結果はapp/controllers/presentations_controller.rbに渡される -->
